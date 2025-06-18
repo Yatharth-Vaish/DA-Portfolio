@@ -3,7 +3,7 @@ import Code from "./codes/code";
 const ProjectList = {
   SQL: [
     {
-      name: "Cyclistic Bike Share Analysis",
+      name: "Driver-Drowsiness-Detection",
       image: "/assets/cyclistic.png",
       medium: "https://medium.com/@rafsanahmed2828/from-data-to-insights-googles-cyclistic-case-study-04fb362c2d0d",
       github: "https://github.com/Yatharth-Vaish/Driver-Drowsiness-Detection",
