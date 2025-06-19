@@ -3,48 +3,26 @@ import { gsap } from "gsap";
 import "../styles/Experience.css";
 
 const experienceItems = {
-  Reflect: {
-    jobTitle: "Project Lead @",
-    duration: "JAN 2023 - APR 2024",
+   "Innodata INC.": {
+    jobTitle: " Data Analyst @",
+    duration: " OCT 2024– Present",
     desc: [
-      "Conducted 20+ customer interviews to understand user needs and pain points, translating insights into actionable business requirements and aligning product development with customer demands",
-      "Successfully secured $13,000 in grant funding by winning both Stage 1 and Stage 2 of the Norman Esch Awards, validating the venture's impact and potential"
+      "Managed end-to-end ML training data pipelines with over 95% accuracy, streamlining ETL workflows across cross-functional teams. Improved data quality and processing efficiency, enabling faster and more reliable model development.",
+      "Automated reporting tasks and QA workflows, reducing delivery time by 30% and minimizing manual errors. Enabled faster insights and improved overall process efficiency across teams."
     ]
   },
-  "ShieldMate INC.": {
-    jobTitle: "Research Analyst @",
-    duration: "MAR 2023 - DEC 2023",
+  " Happieloop Technologies– India": {
+    jobTitle: " Data Analyst Intern @",
+    duration: " AUG 2023– JAN 2024",
     desc: [
-      "Utilized analytical skills to conduct in-depth market research, identify key market needs and trends to inform the development process for the innovative startup",
-      "Led the conceptualization and wireframing for the envisioned platform using Figma to guide app development and ensure maximum user satisfaction",
+      "Used SQL and A/B testing to analyze customer behavior and identify retention strategies. Insights led to an 18% boost in user retention. Demonstrated strong data-driven impact during internship at Happieloop Technologies.",
+      "Designed and automated dynamic Power BI dashboards to monitor key performance indicators, reducing reporting time by 25% and enabling faster, data-driven decision-making.",
       "Collaborated with various stakeholders and firms to forge strategic partnerships to amplify the app's reach and impact"
     ]
   },
-  HealthMate: {
-    jobTitle: "Technical Lead @",
-    duration: "SEP 2022 - FEB 2023",
-    desc: [
-      "Led prototyping and product development, using Bubble.io for a no-code platform and guiding the team through technical decisions",
-      "Designed UI/UX assets in Figma and Adobe Illustrator to deliver a functional and user-friendly health tech interface"
-    ]
-  },
-  "Doctor's": {
-    jobTitle: "Executive Manager @",
-    duration: "JAN 2022 - AUG 2022",
-    desc: [
-      "Spearheaded the implementation of ERP solutions to streamline inventory and warehouse management processes, optimizing efficiency and ensuring smooth operations within the company",
-      "Acted as a technical expert, advising management on best practices and technologies to support business growth and scalability, demonstrating adaptability and a wide range of skills"
-    ]
-  },
-  Fiverr: {
-    jobTitle: "Graphic Designer @",
-    duration: "MAY 2020 - OCT 2021",
-    desc: [
-      "Collaborated with clients to understand their target audience and develop designs that effectively conveyed the desired sentiment, resulting in increased product sales and customer satisfaction",
-      "Leveraged graphic design skills and creativity to produce unique and compelling designs for global clients that stood out in the competitive Print-on-Demand market",
-      "Effectively managed client expectations, deadlines, and project requirements, demonstrating strong communication and time management skills"
-    ]
-  }
+ 
+  
+  
 };
 
 const JobList = () => {

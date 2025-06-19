@@ -13,7 +13,7 @@ const ProjectList = {
         {
           name: "README.md",
           type: "info",
-          content: "Cyclistic is a fictional bike-share company in Chicago. The goal of this project is to analyze the bike usage data to understand how different types of users (casual vs. annual members) use the service and to provide insights for marketing strategies. Learn more about my approach, analysis, and findings in the Medium article linked below.",
+          content: "Developed a computer vision system to detect driver fatigue using real-time video input and facial landmark analysis. Implemented alert mechanisms to warn drowsy drivers, enhancing road safety through AI-driven monitoring.",
         },
         { name: "cleaning.sql", type: "code", content: Code("Cyclistic").cleaning, language: "sql" },
         { name: "querying.sql", type: "code", content: Code("Cyclistic").querying, language: "sql" },

@@ -8,14 +8,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 const milestones = [
   {
-    title: "zzzzzzzzz.",
-    description: "Enrolled in an Innovation and Entrepreneurship degree in an attempt to explore new fields and gain a broader perspective on business and technology.",
-    year: "Sep 2022 - Dec 2023",
+    title: "KIET Group Of Institutions.",
+    description: "Completed B.Tech in Computer Science (2020–2024) with a strong foundation in algorithms, data structures, and software development. Gained hands-on experience in AI/ML, full-stack projects, and published a patent-backed research paper.",
+    year: "Aug 2020 - July 2024",
     type: "education" 
   },
   {
-    title: "Exposure to Data in Startup Environments",
-    description: "During my time at TMU, I worked at 3 different startups where I gained initial exposure to huge amounts of data during market research, which introduced me to the power of data analytics in decision making.",
+    title: "Exposure to NASA HERC",
+    description: "During my time at KIET , In 2023 as Vice-Captain and 2024 as Captain,leading TEAM INTERSTELLARS at NASA HERC proved that passion defies domains-this CS student helped drive India to global top 10,turning crashes into combacks.",
     year: "Sep 2022 - Jan 2024",
     type: "startup",
     learnMoreLink: "#experience", 
@@ -24,7 +24,7 @@ const milestones = [
   {
     title: "Decision to Pivot to Data Analytics",
     description: "Realized my passion for data analytics and decided to pivot my career towards becoming a Data Analyst, focusing on data-driven decision making.",
-    year: "Jan 2024 - Feb 2024",
+    year: "Sept 2023 - Feb 2024",
     type: "career",
   },
   {
@@ -40,6 +40,12 @@ const milestones = [
     description: "Built my first portfolio projects (Covid-19 and Cyclistic), analyzing real-world datasets using Excel, MySQL and creating visualizations with Tableau.",
     year: "Sep 2024 - Dec 2024",
     type: "project"
+  },
+  {
+    title: " Indian Institute of Technology, Jodhpur.(Part-Time)",
+    description: "Pursuing a part-time BS in Artificial Intelligence and Data Science at IIT Jodhpur, combining academic learning with real-world experience. Relevant coursework includes Data Analytics, Statistical Methods, and Algorithmic Thinking—foundations for strong analytical problem-solving.",
+    year: "Dec 2024 - Aug 2028",
+    type: "education" 
   },
   {
     title: "Advanced Data Analysis & Storytelling",
