@@ -55,20 +55,19 @@ const About = () => {
       <div className="about-content">
         <div className="about-description">
           <p ref={el => textRefs.current[0] = el}>
-              Hi, my name is Yatharth and I enjoy fiddling with numbers and solving problems. My interest in data started back in 2022 when I was working on a market research report for a startup.
-              The subtle realization of the power of data was all it took to get me hooked on the field of data analytics. 
+           Hi, I’m Yatharth Vaish — a results-driven Data Analyst who turns data into strategic advantage. With expertise in Python, SQL, Power BI, and machine learning, I don’t just analyze data — I uncover insights that create measurable business impact. Whether it’s saving $500K by reducing customer churn, increasing ad engagement through predictive modeling, or accelerating healthcare outcomes with high-accuracy diagnostic tools, I bring a sharp analytical mindset and a bias for action.
           </p>
           
           <p ref={el => textRefs.current[1] = el}>
-            Since then, I’ve earned a <a href= "https://www.credly.com/badges/76531ad7-80dc-4eea-8523-983d8b70f941/public_url" target="_blank">Google Data Analytics Certificate</a> and built a strong foundation in <span className="highlight">SQL, Tableau, and Python</span>.   For me, data analysis feels like playing detective—piecing together clues from numbers to reveal the bigger picture.
+            At Innodata Inc., I lead automation efforts that have streamlined reporting and cut delivery times by 30%, while ensuring 95%+ accuracy in machine learning data pipelines. During my internship at Happieloop Technologies, my retention analysis and dashboard automation directly improved customer engagement and reduced manual workload by 25%.
           </p>
           
           <p ref={el => textRefs.current[2] = el}>
-            I have a strong appetite for learning and I'm always eager to explore new technologies. This website is a testament to my journey where I picked up <span className="highlight">HTML, CSS & JavaScript</span> along the way. I also have a background in <span className="highlight"> Graphic Design. </span>
+             I back my work with strong academic and professional credentials: certifications from Google, IBM, and Microsoft, and a BS in AI & Data Science from IIT Jodhpur, following a BTech in CS & IT. But what truly sets me apart is my ability to translate complex data into clear, compelling insights that drive decisions, fuel innovation, and move businesses forward.
           </p>
           
           <p ref={el => textRefs.current[3] = el}>
-            Outside of work, I love playing video games. I'm also into aesthetic interior designs and I love hoarding cool tech products.
+            I’m passionate about leveraging data to solve real-world problems, and I’m always seeking opportunities where I can contribute meaningfully, learn continuously, and build solutions that matter.
           </p>
           
         </div>
@@ -79,7 +78,7 @@ const About = () => {
           </a>
         </p>     
         <div className="about-actions" ref={el => textRefs.current[6] = el}>
-          <a href="/assets/y.pdf" className="resume-button btn-effect" target="_blank" rel="noopener noreferrer">
+          <a href="/assets/yatharth.pdf" className="resume-button btn-effect" target="_blank" rel="noopener noreferrer">
             View Resume
           </a>
         </div>

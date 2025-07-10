@@ -1,13 +1,12 @@
 import Code from "./codes/code";
 
 const ProjectList = {
-  SQL: [
+  PYTHON: [
     {
       name: "Driver-Drowsiness-Detection",
       image: "/assets/cyclistic.png",
-      medium: "https://medium.com/@rafsanahmed2828/from-data-to-insights-googles-cyclistic-case-study-04fb362c2d0d",
       github: "https://github.com/Yatharth-Vaish/Driver-Drowsiness-Detection",
-      dataset: "https://divvy-tripdata.s3.amazonaws.com/index.html",
+      dataset: "https://github.com/Yatharth-Vaish/Driver-Drowsiness-Detection/tree/main/data%20/images",
       tags: ["MySQL", "Excel", "Tableau", "Data Visualization", "Data Analysis"],
       files: [
         {
@@ -15,129 +14,86 @@ const ProjectList = {
           type: "info",
           content: "Developed a computer vision system to detect driver fatigue using real-time video input and facial landmark analysis. Implemented alert mechanisms to warn drowsy drivers, enhancing road safety through AI-driven monitoring.",
         },
-        { name: "cleaning.sql", type: "code", content: Code("Cyclistic").cleaning, language: "sql" },
-        { name: "querying.sql", type: "code", content: Code("Cyclistic").querying, language: "sql" },
-        { name: "viz_query.sql", type: "code", content: Code("Cyclistic").viz_query, language: "sql" }
+        { name: "Driver Drowsiness Detection.ipynb", type: "code", content: Code("Cyclistic").cleaning, language: "python" },
+        
       ],
     },
 
     {
-      name: "Data Cleaning - NashVille Housing Data",
+      name: "LOAN PREDICTION",
       image: "/assets/nashville.png",
-      github: "https://github.com/rafsanahmed28/Data-Cleaning-MySQL",
+      github: "https://github.com/Yatharth-Vaish/Loan_Prediction",
       tags: ["MySQL", "Data Cleaning", "Data Transformation"],
-      dataset: "http://kaggle.com/datasets/tmthyjames/nashville-housing-data",
+      trainingDataset: "https://github.com/Yatharth-Vaish/Loan_Prediction/blob/main/loan-train.csv",
       files: [
         {
           name: "README.md",
           type: "info",
-          content: "Cleaned and transformed Nashville housing data for analysis, focusing on data integrity and consistency. This project's goal was to go through the important steps of data cleaning and transformation, including removing duplicates, handling missing values, and ensuring data types are correct.",
+          content: "💸 Loan Prediction System Project is a machine learning-based system that predicts whether a loan application will be approved or rejected. It is designed to automate and improve the efficiency of the loan approval process in financial institutions.",
         },
         {
-          name: "nasvhille.sql",
+          name: "Loan-Eligibilty-Prediction.ipynb",
           type: "code",
           content: Code("Nashville"),
-          language: "sql",
+          language: "python",
         },
       ],
     },
 
     {
-      name: "Covid-19 Exploratory Data Analysis",
+      name: "Sentiment-Analysis",
       image: "/assets/covid19.png",
-      github: "https://github.com/rafsanahmed28/Covid-Data-Exploration-Project",
-      dataset: "https://ourworldindata.org/covid-deaths",
+      github: "https://github.com/Yatharth-Vaish/Sentiment-Analysis",
+      dataset: "https://github.com/Yatharth-Vaish/Sentiment-Analysis/blob/main/Sentiment%20Analysis%20dataset.zips",
       tags: ["MySQL", "Excel", "Tableau", "Data Visualization", "Data Analysis"],
       files: [
         {
           name: "README.md",
           type: "info",
-          content: "Performed exploratory data analysis on Covid-19 data to find the damage caused by the pandemic in different countries. The project focuses on data transformation, exploratory data analysis and visualization to provide insights into the impact of Covid-19 globally.",
+          content: "Implemented sentiment analysis using natural language processing to assess and categorize opinions in text data. This technology provides valuable insights into public sentiment, aiding businesses in understanding customer feedback, making informed decisions, and enhancing overall customer satisfaction and engagement.",
         },
         {
-          name: "covid19.sql",
+          name: "Sentiment Analysis using Flipkart reviews.ipynb",
           type: "code",
           content: Code("Covid19"),
           language: "sql",
         },
       ],
-    }
-  ],
-  Python: [
+    },
     {
-      name: "Movie Correlation Analysis",
-      image: "/assets/correlation.png",
-      github: "https://github.com/rafsanahmed28/Movie-Correlation---Pandas-NumPy-SNS",
-      tags: ["Pandas", "Numpy", "Seaborn", "Matplotlib"],
-      dataset: "https://www.kaggle.com/datasets/danielgrijalvas/movies",
+      name: "Customer Churn Analysis",
+      image: "/assets/cc.webp",
+      github: "https://github.com/Yatharth-Vaish/Customer-Churn-Analysis",
+      tags: ["Python","Data Visualization", "Data Analysis"],
       files: [
         {
           name: "README.md",
           type: "info",
-          content: "Analyzed movie data to find correlations between different features such as budget, revenue, and ratings using Python libraries like Pandas, NumPy, and Seaborn. The project includes data cleaning, transformation, and visualization to uncover insights about the movie industry.",
+          content: "Developed a machine learning model to predict customer churn using historical data. Conducted data cleaning, exploratory analysis, and feature engineering to identify key factors influencing churn. Built and evaluated models like Logistic Regression and Random Forest to forecast churn risk and provide actionable retention insights..",
         },
-        {
-          name: "correlation.ipynb",
-          type: "notebook",
-          content: "https://nbviewer.org/github/rafsanahmed28/Movie-Correlation---Pandas-NumPy-SNS/blob/main/Finding%20Movie%20Correlation.ipynb?flush_cache=true",
-          language: "python",
-        },
+        { name: "Churn Prediction Model.ipynb", type: "code", content: Code("A"), language: "python" },
+        
       ],
     },
 
-    {
-      name: "Automating Crypto Data using CoinGecko API",
-      image: "/assets/crypto.png",
-      github: "https://github.com/rafsanahmed28/Automating-Crypto-Data-using-CoinGecko-API",
-      tags: ["Pandas", "Seaborn", "Matplotlib"],
-      files: [
-        {
-          name: "README.md",
-          type: "info",
-          content: "Automated the retrieval of cryptocurrency data using the CoinGecko API and performed analysis using Python libraries pandas, seaborn and matplotlib. This project is meant to showcase the data automation and collection process, which can be used for further analysis or visualization.",
-        },
-        {
-          name: "crypto.ipynb",
-          type: "notebook",
-          content: "https://nbviewer.org/github/rafsanahmed28/Automating-Crypto-Data-using-CoinGecko-API/blob/main/Automating%20Crypto%20-%20CoinGecko%20API.ipynb?flush_cache=true",
-          language: "python",
-        },
-      ],
-    },
 
-    {
-      name: "Amazon Web Scraping",
-      image: "/assets/amazon.png",
-      github: "https://github.com/rafsanahmed28/Amazon-Web-Scraping",
-      tags: ["BeautifulSoup", "Pandas", "Web Scraping", "Email Automation"],
-      files: [
-        {
-          name: "README.md",
-          type: "info",
-          content: "Scraped product data from Amazon using BeautifulSoup and Pandas. The data is stored in a CSV file and is used for tracking price changes over time. This project also showcases how you can email yourself whenever a product's price drops below a certain threshold.",  
-        },
-        {
-          name: "amazon.ipynb",
-          type: "notebook",
-          content: "https://nbviewer.org/github/rafsanahmed28/Amazon-Web-Scraping/blob/main/Amazon%20Web%20Scraping%20-%20Data%20Project.ipynb?flush_cache=true",
-          language: "python",
-        },
-      ],
-    },
+
+    
   ],
-  Tableau: [
+ 
+  PowerBI: [
     {
-      name: "Cyclistic Case Study Visualization",
+      name: "Sales-Analytics-Dahsboard-Power-Bi",
       image: "/assets/cyclisticviz.png",
-      medium: "https://medium.com/@rafsanahmed2828/from-data-to-insights-googles-cyclistic-case-study-04fb362c2d0d",
-      tableau: "https://public.tableau.com/app/profile/rafsan.ahmed8668/viz/GoogleCyclisticCaseStudyVisualization/DashboardMain",
-      tags: ["Tableau", "Data Visualization"],
+      github: "https://github.com/Yatharth-Vaish/Sales-Analytics-Dahsboard-Power-Bi?tab=readme-ov-file#overview",
+      tags: ["PowerBI", "Data Visualization"],
       files: [
         {
           name: "README.md",
           type: "info",
-          content: "Designed an interactive Tableau dashboard for the Cyclistic Case Study, visualizing the seasonal trends and usage patterns during different times as well as different routes the users take. The dashboard helps us dive deeper into how the annual users differ from casual users.",
+          content: "This project offers an in-depth analysis of an e-commerce enterprise leveraging Power BI tools. Key business metrics and trends are visualized through a comprehensive dashboard. The insights derived facilitate data-driven decision-making, aiding business growth. The project incorporates forecasting techniques for predictive analysis.",
         }
+        
       ],
     },
 
@@ -151,10 +107,50 @@ const ProjectList = {
           name: "README.md",
           type: "info",
           content: "Developed a Tableau dashboard to visualize Covid-19 infection data across all the countries around the world. The dashboard also gives an overview of the global death count, continental death count, and a filtered view of percentage population infected by country.",
-        }
+        },
+        
+        
       ],
     },
   ],
+    SQL: [
+    {
+      name: "Fraud_Detection_SQL",
+      image: "/assets/Fraud-Detection.png",
+      github: "https://github.com/Yatharth-Vaish/Fraud-Detection",
+      tags: ["SQL", "Python"],
+      files: [
+        {
+          name: "README.md",
+          type: "info",
+          content: "Identify suspicious activity like rapid withdrawals or large transfers .Rank accounts by deviation from average behavior. Use JOINs and GROUP BYs to compare peer activity .Impact: Helps flag potentially fraudulent accounts early.",
+        },
+        { name: "schema.sql", 
+         type: "code", 
+         content: Code("N"), 
+         language: "sql" },
+
+      ],
+    },
+
+    {
+      name: "Hospital Resource Utilization",
+      image: "/assets/hospital.webp",
+      github: "https://github.com/Yatharth-Vaish/Hospital-Resource-Utilization",
+      tags: ["SQL", "Python"],
+      files: [
+        {
+          name: "README.md",
+          type: "info",
+          content: "Hospital Database Management System (DBMS) is a comprehensive SQL project designed to streamline and optimize the management of hospital operations. This project aims to provide an efficient and user-friendly solution for storing, retrieving, and manipulating various types of healthcare-related data.",
+        },
+        { name: "Hospital DBMS Oracle SQL.pdf", 
+         type: "code", 
+         content: Code("S"), 
+         language: "sql" },
+      ],
+    },
+  ]
 };
 
 export default ProjectList;

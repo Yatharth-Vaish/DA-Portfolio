@@ -28,11 +28,15 @@ const milestones = [
     type: "career",
   },
   {
-    title: "Google Data Analytics Professional Certificate",
-    description: "Completed Google's Data Analytics Professional Certificate, establishing core competencies in data preparation, analysis, and visualization.",
-    certificateUrl: "https://www.coursera.org/account/accomplishments/professional-cert/23OIJ3BGH8FJ",
-    year: "Mar 2024 - Sep 2024",
-    type: "google",
+    title: "Data Analysis Certificate",
+    description: "Completed a comprehensive program covering data cleaning, statistical analysis, and data visualization using tools like Excel, SQL, and Python. Gained hands-on experience turning raw data into actionable business insights.",
+    certificateUrl: "https://www.coursera.org/account/accomplishments/verify/NNOW56ZIS19Z",
+    a: "https://coursera.org/share/3edc2f476f4f0fd6d4fea3de4f4403ad",
+    b: "https://coursera.org/share/0ec678f5ea92d4c3023db6d3946a7d6e",
+    c: "https://coursera.org/share/1b3a999e08c8cbbc7e4bca492d3ebfeb",
+    d: "https://coursera.org/share/300ccf65352daf095631a716ffede26c",
+    e: "https://coursera.org/share/7abfda1f534a798c40e5a1042c711675",
+    f: "https://coursera.org/share/20970a6cb4804718c226ce6ae0d5bb0b",
 
   },
   {
@@ -186,6 +190,32 @@ export default function Timeline() {
                       View Certificate
                     </a>
                   )}
+                   {item.a && (
+                    <a href={item.a} className="timeline-link" target="_blank" rel="noopener noreferrer">
+                      View Certificate
+                    </a>
+                  )}
+                   {item.b && (
+                    <a href={item.b} className="timeline-link" target="_blank" rel="noopener noreferrer">
+                      View Certificate
+                    </a>
+                  )}
+                   {item.c && (
+                    <a href={item.c} className="timeline-link" target="_blank" rel="noopener noreferrer">
+                      View Certificate
+                    </a>
+                  )}
+                   {item.e && (
+                    <a href={item.e} className="timeline-link" target="_blank" rel="noopener noreferrer">
+                      View Certificate
+                    </a>
+                  )}
+                   {item.f && (
+                    <a href={item.f} className="timeline-link" target="_blank" rel="noopener noreferrer">
+                      View Certificate
+                    </a>
+                  )}
+                   
                   
                   {item.learnMoreLink && (
                     <a href={item.learnMoreLink} className="timeline-link">
